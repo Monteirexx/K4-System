@@ -20,7 +20,7 @@ namespace K4System
 
 		public void Initialize_Commands()
 		{
-			AddCommand("css_k4", "More informations about K4-System",
+			AddCommand("css_sky", "More informations about K4-System",
 				[CommandHelper(0, whoCanExecute: CommandUsage.CLIENT_ONLY)] (player, info) =>
 			{
 				if (player == null || !player.IsValid || player.PlayerPawn.Value == null)
